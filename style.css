@@ -14,6 +14,9 @@
     margin: 0px;
     padding: 0px;
 }
+html,body{
+    height: 100vh;
+}
 header{
     background-color: black;
     color: white;
@@ -22,18 +25,16 @@ header{
 header > h1{
     padding-top: 50px;
     font-family: var(--fonte-destaque);
-    font-size:136px;
+    font-variant: small-caps;
+    font-size:10vw;
 }
 header > h1:hover{
     text-decoration: underline;
 }
-span{
-    font-size: 95px;
-}
 a{
     text-decoration: none;
     color: white;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 16px;
 }
 header > p{
@@ -44,23 +45,17 @@ header > p{
 header > p:hover{
     text-decoration: underline;
 }
-
-.branco{
+section{
     background-color: white;
     font-family: var(--fonte-texto);
-    font-size: 47px;
+    font-size: 4.5vw;
     line-height: 2em;
-    padding: 61px 30px;
+    padding: 10vh 0px 10vh 30px;
     box-shadow: 2px -2px 6px 1px rgba(0, 0, 0, 0.411);
 }
 .imagem{
-    background-color: black;
-    font-family: var(--fonte-texto);
-    font-size: 47px;
-    line-height: 2em;
-    padding: 61px 30px;
     color: white;
-    box-shadow: 2px -2px 6px 1px rgba(0, 0, 0, 0.411);
+    text-shadow: 1px 2px 0px black;
 }
 #joana{
     background: url(imagens/background001.jpg) fixed center/cover;
@@ -71,14 +66,13 @@ header > p:hover{
 #sombra{
     background-color: rgba(0, 0, 0, 0.575);
     display: inline-block;
-    unicode-bidi: isolate;
 }
 footer{
     background-color: black;
     color: white;
     padding: 10px;
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
 }
 a:hover{
     text-decoration: underline;
