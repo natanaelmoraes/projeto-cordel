@@ -4,29 +4,29 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-:root{
+:root{ /* tag para adicionar variavel */
     --fonte-destaque:"passion one", "cursive", "sans-serif";
     --fonte-padrao:"verdana", "sans-serif";
     --fonte-texto:"Sriracha", "cursive", "sans-serif";
 }
 
-*{
+*{ /* comandos globais */
     margin: 0px;
     padding: 0px;
 }
 html,body{
-    height: 100vh;
+    height: 100vh; /* tag para usar 100% da altura do site */
 }
 header{
     background-color: black;
     color: white;
-    text-align: center;
+    text-align: center; /* adicionar todos texto de header ao meio */
 }
 header > h1{
     padding-top: 50px;
     font-family: var(--fonte-destaque);
-    font-variant: small-caps;
-    font-size:10vw;
+    font-variant: small-caps; /* para todas letras ficar maiusculas e a primeira ficar maior */
+    font-size:10vw; /* usando "vh" quando a tela diminuir vai se adoptar */
 }
 header > h1:hover{
     text-decoration: underline;
@@ -61,7 +61,7 @@ section{
     background: url(imagens/background001.jpg) fixed center/cover;
 }
 #papel{
-    background: url(imagens/background002.jpg) fixed center/cover;
+    background: url(imagens/background002.jpg) fixed center/cover; /* adicionar imagem de fundo */
 }
 #sombra{
     background-color: rgba(0, 0, 0, 0.575);
